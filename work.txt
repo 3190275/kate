@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Pinceladas</title>
+	<link rel="stylesheet" href="workstyles.css">
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/x-icon" href="favicon.PNG">
+</head>
+<body>
+
+<!--Progress bar-->
+<div class="sticky2">
+<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
+<!--Facebook,twitter,insta-->
+<div class="icon-bar">
+  <a href="https://www.facebook.com/kateyyy.abalos/"  target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
+<a href="https://www.instagram.com/katenicolega/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://www.twitter.com/katenicolega/" target="_blank"class="twitter"><i class="fa fa-twitter"></i></a> 
+</div>
+
+<!--Navigation Bar-->
+<div id="home"><!--Home--></div>
+<div class="topnav sticky">
+<img src="favicon.png" alt="logo" style="width:65px;height:58px;float:left;border-radius:50%;">
+  <a href="index.html">HOME</a>
+<!--Dropdown in Artist-->
+<div class="dropdown">
+    <button class="dropbtn"> <a href="index.html#artists">ARTISTS</a> </button>
+    <div class="dropdown-content">
+      <a href="artists.html#Annie">Annie Cabigting</a>
+      <a href="artists.html#Benedicto">Benedicto Cabrera</a>
+      <a href="artists.html#Hermes">Hermes Alegre</a>
+      <a href="artists.html#Andres">Andres Barrioquinto</a>
+    </div>
+  </div>
+<!--Dropdown in Works-->
+<div class="dropdown">
+    <button class="dropbtn"> <a class="active" href="#works">WORKS</a> </button>
+    <div class="dropdown-content">
+      <a href="#AnnieWorks">Annie Cabigting</a>
+      <a href="#BenedictoWorks">Benedicto Cabrera</a>
+      <a href="#HermesWorks">Hermes Alegre</a>
+      <a href="#AndresWorks">Andres Barrioquinto</a>
+    </div>
+  </div>
+<!--About-->
+<a href="index.html#about">ABOUT</a>
+</div>
+<div class="letter">
+<br><br>
+<p>LA PINCELADAS<br>GALLERY<span style="color:#B8860B;font-weight:bold">.</span></p>
+</div><br>
+
+<!--Paragraph-->
+<div class="row">
+  <div class="column" style="background-color:#f2f2f2;">
+<div class="welcome">
+<p>THE<br>WORKS<span style="color:#B8860B;font-weight:bold">.</span></p>
+</div><br><br><br><br>
+<img src="favicon.png" alt="Italian Trulli" class="logo">
+  </div>
+  <div class="column" style="background-color:#f2f2f2;">
+    <p class="double">Art is a creation through observation and interpretation of the art and the portrayal of their craft by the artist in whatever way they want whether it is viewed the same way as the observer or any way they see it. Intelligible and recognized thoughts and emotions of the world is considered to be art. Within the emotions and thoughts of the world, art enables those experiences to be intelligible and recognized.</p><br>
+  </div>
+</div>
+
+<!--ARTISTS GALLERY-->
+<div class="hello">
+<div id="artists"><!--Artists--></div><br>
+<br><br><br><br><br>
+<div id="AnnieWorks"><!--Annie--></div>
+<div class="work">
+   WORKS
+</div><br>
+<img src="favicon.png" alt="Italian Trulli" style="border-radius:50%;width:50px;height:50px;display: block;margin-left: auto;margin-right: auto;"><br><br>
+<div class="double2">
+ANNIE CABIGTING
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="A Paris.jpg">
+      <img src="A Paris.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><i>À Paris Avec Une Amie Polonaise Et Un Italien, 2011</i></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Mesdames.jpg">
+      <img src="Mesdames.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><i>Mesdames , 2012</i></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="A Paris.jpg">
+      <img src="A Paris.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><i>À Paris Avec Une Amie Polonaise Et Un Italien, 2011</i></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Mesdames.jpg">
+      <img src="Mesdames.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><i>Mesdames , 2012</i></div>
+  </div>
+</div>
+<div class="clearfix"></div>
+
+<div id="BenedictoWorks"><!--Annie--></div>
+<div class="background2" style="padding-top:6%;">
+<img src="favicon.png" alt="Italian Trulli" style="border-radius:50%;width:50px;height:50px;display: block;margin-left: auto;margin-right: auto;"><br><br>
+<div class="double3">
+BENEDICTO CABRERA
+</div>
+<div class="responsive1">
+  <div class="gallery1">
+    <a target="_blank" href="Sabel , 2008.jpg">
+      <img src="Sabel , 2008.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc1"><i>Sabel, 2008</i></div>
+  </div>
+</div>
+<div class="responsive1">
+  <div class="gallery1">
+    <a target="_blank" href="tondo.jpg">
+      <img src="tondo.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc1"><i>Tondo Girl , 1991</i></div>
+  </div>
+</div>
+<div class="responsive1">
+  <div class="gallery1">
+    <a target="_blank" href="Sabel , 2008.jpg">
+      <img src="Sabel , 2008.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc1"><i>Sabel, 2008</i></div>
+  </div>
+</div>
+<div class="responsive1">
+  <div class="gallery1">
+    <a target="_blank" href="tondo.jpg">
+      <img src="tondo.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc1"><i>Tondo Girl , 1991</i></div>
+  </div>
+</div>
+<div class="clearfix1"></div>
+</div>
+
+<div id="HermesWorks"><!--Annie--></div>
+<div class="hello" style="padding-top:6%;">
+<img src="favicon.png" alt="Italian Trulli" style="border-radius:50%;width:50px;height:50px;display: block;margin-left: auto;margin-right: auto;"><br><br>
+<div class="double2">
+HERMES ALEGRE
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hermes1.png">
+      <img src="hermes1.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><i>Mahiyain Series 1</i></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hermes2.jpg">
+      <img src="hermes2.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><i>Mahiyain Series 2</i></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hermes1.png">
+      <img src="hermes1.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><i>Mahiyain Series 1</i></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hermes2.jpg">
+      <img src="hermes2.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><i>Mahiyain Series 2</i></div>
+  </div>
+</div>
+<div class="clearfix"></div>
+</div>
+
+<div id="AndresWorks"><!--Annie--></div>
+<div class="background1" style="padding-top:6%;">
+<img src="favicon.png" alt="Italian Trulli" style="border-radius:50%;width:50px;height:50px;display: block;margin-left: auto;margin-right: auto;"><br><br>
+<div class="double2">
+ANDRES BARRIOQUINTO
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Autumn Nocturne , 2020.jpg">
+      <img src="Autumn Nocturne , 2020.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><i>Autumn Nocturne , 2020</i></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="lady.jpg">
+      <img src="lady.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><i>Lady Gaga, 2019</i></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Autumn Nocturne , 2020.jpg">
+      <img src="Autumn Nocturne , 2020.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><i>Autumn Nocturne , 2020</i></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="lady.jpg">
+      <img src="lady.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><i>Lady Gaga, 2019</i></div>
+  </div>
+</div>
+<div class="clearfix"></div>
+</div>
+
+
+<div class="credits">&copy; 2021 by Kate Nicole G. Abalos. La Pinceladas Gallery</div>
+</div>
+
+
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Pinceladas</title>
+	<link rel="stylesheet" href="homestyles.css">
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/x-icon" href="favicon.PNG">
+</head>
+<body>
+
+<!--Progress bar-->
+<div class="sticky2">
+<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
+<!--Facebook,twitter,insta-->
+<div class="icon-bar">
+  <a href="https://www.facebook.com/kateyyy.abalos/"  target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
+<a href="https://www.instagram.com/katenicolega/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://www.twitter.com/katenicolega/" target="_blank"class="twitter"><i class="fa fa-twitter"></i></a> 
+</div>
+
+<!--Navigation Bar-->
+<div id="home"><!--Home--></div>
+<div class="topnav sticky">
+<img src="favicon.png" alt="logo" style="width:65px;height:58px;float:left;border-radius:50%;">
+  <a class="active" href="#home">HOME</a>
+<!--Dropdown in Artist-->
+<div class="dropdown">
+    <button class="dropbtn"> <a href="#artists">ARTISTS</a> </button>
+    <div class="dropdown-content">
+      <a href="artists.html#Annie">Annie Cabigting</a>
+      <a href="artists.html#Benedicto">Benedicto Cabrera</a>
+      <a href="artists.html#Hermes">Hermes Alegre</a>
+      <a href="artists.html#Andres">Andres Barrioquinto</a>
+    </div>
+  </div>
+<!--Dropdown in Works-->
+<div class="dropdown">
+    <button class="dropbtn"> <a href="#works">WORKS</a> </button>
+    <div class="dropdown-content">
+      <a href="work.html#AnnieWorks">Annie Cabigting</a>
+      <a href="work.html#BenedictoWorks">Benedicto Cabrera</a>
+      <a href="work.html#HermesWorks">Hermes Alegre</a>
+      <a href="work.html#AndresWorks">Andres Barrioquinto</a>
+    </div>
+  </div>
+<!--About-->
+<a href="#about">ABOUT</a>
+</div>
+<div class="letter">
+<br><br>
+<p>LA PINCELADAS<br>GALLERY<span style="color:#B8860B;font-weight:bold">.</span></p>
+</div><br>
+
+<!--Paragraph-->
+<div class="row">
+  <div class="column" style="background-color:#f2f2f2;">
+<div class="welcome">
+<p>WELCOME TO<br>LA PINCELADAS<br>GALLERY<span style="color:#B8860B;font-weight:bold">.</span></p>
+</div>
+<img src="favicon.png" alt="Italian Trulli" class="logo">
+  </div>
+  <div class="column" style="background-color:#f2f2f2;">
+    <p class="double">Art expresses emotions or is an expression of life. Art is a creation that allows for interpretation of any kind. I have read that art is considered a human skill as opposed to nature, a skill applied to music, painting, poetry etc. I believe that nature is an art as well. If something is made by someone or by nature in a certain way, then it’s unique and special in its own way.</p><br>
+  </div>
+</div>
+
+<!--ARTISTS GALLERY-->
+<div class="hello">
+<div id="artists"><!--Artists--></div><br>
+<br><br><br><br><br>
+<div class="artist">
+   ARTISTS
+</div><br>
+<img src="favicon.png" alt="Italian Trulli" style="border-radius:50%;width:50px;height:50px;display: block;margin-left: auto;margin-right: auto;"><br><br>
+<div class="gallery">
+  <a target="_blank" href="Annie cabigting.jpg">
+    <img src="Annie cabigting.jpg" alt="Annie cabigting" width="200px" height="150px">
+  </a>
+  <div class="desc">Annie Cabigting</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="benedicto cabrera.jpg">
+    <img src="benedicto cabrera.jpg" alt="benedicto cabrera" width="200" height="100">
+  </a>
+  <div class="desc">Benedicto Cabrera</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="hermes.jpg">
+    <img src="hermes.jpg" alt="Northern Lights" width="200" height="100">
+  </a>
+  <div class="desc">Hermes Alegre</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="andres.jpg">
+    <img src="andres.jpg" alt="Andres Barrioquinto" width="150" height="50">
+  </a>
+  <div class="desc">Andres Barrioquinto</div>
+</div>
+</div>
+
+
+<!--WORKS GALLERY-->
+<div class="background2">
+<div id="works"><!--WORKS--></div><br><br><br>
+<div class="works">
+   WORKS
+</div><br>
+<img src="favicon.png" alt="Italian Trulli" style="border-radius:50%;width:50px;height:50px;display: block;margin-left: auto;margin-right: auto;"><br><br><br>
+<div class="gallery2">
+  <a target="_blank" href="Mesdames (Portrait of Lucina Brembati by Lorenzo Lotto 1480-1556) , 2012.jpg">
+    <img src="Mesdames (Portrait of Lucina Brembati by Lorenzo Lotto 1480-1556) , 2012.jpg" alt="Mesdames (Portrait of Lucina Brembati by Lorenzo Lotto 1480-1556) , 2012" width="200" height="100">
+  </a>
+  <div class="desc2"><i>Mesdames, 2012</i></div>
+</div>
+<div class="gallery2">
+  <a target="_blank" href="benedicto cabrera.jpg">
+    <img src="Sabel , 2008.jpg" alt="Sabel , 2008" width="200" height="100">
+  </a>
+  <div class="desc2"><i>Sabel , 2008</i></div>
+</div>
+<div class="gallery2">
+  <a target="_blank" href="hermes1.png">
+    <img src="hermes1.png" alt="Mahiyain Series 1" width="200" height="100">
+  </a>
+  <div class="desc2"><i>Mahiyain Series 1</i></div>
+</div>
+<div class="gallery2">
+  <a target="_blank" href="Autumn Nocturne , 2020.jpg">
+    <img src="Autumn Nocturne , 2020.jpg" alt="Autumn Nocturne , 2020" width="150" height="50">
+  </a>
+  <div class="desc2"><i>Autumn Nocturne , 2020</i></div>
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="gallery2">
+  <a target="_blank" href="Mesdames (Portrait of Lucina Brembati by Lorenzo Lotto 1480-1556) , 2012.jpg">
+    <img src="Mesdames (Portrait of Lucina Brembati by Lorenzo Lotto 1480-1556) , 2012.jpg" alt="Mesdames (Portrait of Lucina Brembati by Lorenzo Lotto 1480-1556) , 2012" width="200" height="100">
+  </a>
+  <div class="desc2"><i>Mesdames, 2012</i></div>
+</div>
+<div class="gallery2">
+  <a target="_blank" href="benedicto cabrera.jpg">
+    <img src="Sabel , 2008.jpg" alt="Sabel , 2008" width="200" height="100">
+  </a>
+  <div class="desc2"><i>Sabel , 2008</i></div>
+</div>
+<div class="gallery2">
+  <a target="_blank" href="hermes1.png">
+    <img src="hermes1.png" alt="Mahiyain Series 1" width="200" height="100">
+  </a>
+  <div class="desc2"><i>Mahiyain Series 1</i></div>
+</div>
+<div class="gallery2">
+  <a target="_blank" href="Autumn Nocturne , 2020.jpg">
+    <img src="Autumn Nocturne , 2020.jpg" alt="Autumn Nocturne , 2020" width="150" height="50">
+  </a>
+  <div class="desc2"><i>Autumn Nocturne , 2020</i></div>
+</div>
+</div>
+
+<div class="hello2"><br></div>
+<div id="about"><!--ABOUT--></div>
+<div class="about1"><br>
+<div class="text">
+<br>ABOUT<br><br>
+<img src="favicon.png" alt="Italian Trulli" style="border-radius:50%;width:50px;height:50px;display: block;margin-left: auto;margin-right: auto;">
+</div>
+<p class="paragraphs">Art is just like love and has so many definitions and examples for each.<br>Therefore, I believe that art is not about perfection; art is something that continues to develop and <br>grow as it is seen, meaning to open all generations of emotions, <br>thoughts and human capacities.<br><br>Art has always been a part of our lives, and the La Pinceladas can promote and present their diverse<br> hardworks to the public in order to help contemporary artists and aspiring artists.</p>
+<div class="interested1">
+<p class="interested2">Are you interested in pursuing a career as a contemporary artist? <br>Do you want to put your artwork on display? Allow La Pinceladas to assist you!</p>
+<img src="favicon.png" alt="Italian Trulli" style="border-radius:50%;width:50px;height:50px;display: block;margin-left: auto;margin-right: auto;">
+<form action="/action_page.php">
+  <div class="container">
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"></label>
+    <input type="text" placeholder="Email" name="email" id="email" required>
+
+    <label for="psw"></label>
+    <input type="password" placeholder="Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
+</div>
+<div class="credits">&copy; 2021 by Kate Nicole G. Abalos. La Pinceladas Gallery</div>
+</div>
+
+
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
